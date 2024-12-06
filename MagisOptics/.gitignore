@@ -1,0 +1,29 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment directories
+env/
+venv/
+.venv/
+.env/
+
+# Ignore pip related files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore Django-related files
+*.log
+*.pot
+*.pyc
+
+# Ignore media and static files
+media/
+staticfiles/
+
+# Ignore other unwanted files
+.DS_Store
